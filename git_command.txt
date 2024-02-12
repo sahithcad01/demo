@@ -22,6 +22,9 @@ Method 2:
 add & commint single linecode:
 >git commit -am "message"
 
+restore add staging:
+>git restore --staged filename (use after git add cmd)
+
 see branch:
 >git branch
 
@@ -47,9 +50,16 @@ adding all folders & files:
 branch comparison/check br files:
 >git diff (br name)
 
+file remove from one branch:
+>git rm filename.ex
+>git commit -m "Message"
+>git push
+
 *Press q key in keyboard if code stuck
 
+#2 :TOKEN METHOD to access Git_Hub method:
 
+git command : git remote set-url origin https://token-link@github.com/sahithcad01/repit*name
 
 
 
