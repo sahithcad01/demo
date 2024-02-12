@@ -1,39 +1,69 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sha Sweets & Snacks</title>
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="icon" type="image/x-icon" href="images/ssslogo.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
 	<div class="Homeheading">
 		<img src="images/ssslogo.png">
-		<h1>Sha Sweets & snacks</h1>
+		<h1>Sha Sweets & Snacks</h1>
 	</div>
 
 	<ul>
-		<li><a href="home.html"><img src="images/homelogo.png" width="20px" height="20px" >HOME</a></li>
-		<li><a href="#">ABOUT US</a></li>
-		<li><a href="#">SWEETS</a></li>
-		<li><a href="#">SNACKS</a></li>
-		<li><a href="#">ALL PRODUCTS</a></li>
-		<li><a href="#">BUY SWEETS & SNACKS</a></li>
-		<li><a href="#">CONTACT US</a></li>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="aboutus.html">ABOUT US</a></li>
+		<li><a href="sweets.html">SWEETS</a></li>
+		<li><a href="snacks.html">SNACKS</a></li>
+		<li><a href="allproducts.html">ALL PRODUCTS</a></li>
+		<li><a href="buy.html">BUY SWEETS & SNACKS</a></li>
+		<li><a href="contactus.html">CONTACT US</a></li>
 
-		<li class="lastmenuchild"><a href="C:\Users\BRIGHT-SYS23\Desktop\CADbatch01\SAHITHAFRIDI\DAILYTASK\files\Registration.html" target="blank" >Register</a></li>
-		<li class="login"><a href="#">Login</a></li>
+		<li class="lastmenuchild"><a href="Registrationform.html" target="blank" >Register</a></li>
+		<li class="login"><a href="login.html">Login</a></li>
 	</ul>
 
 	<div class="Homedescrp">
-		<p><marquee><img src="images/tamil_text_marquee.png" width="750px" height="50px"></marquee></p>
+		<p><marquee><img src="https://i.postimg.cc/zf6Vy2yv/tamil-text-marquee.png" width="750px" height="50px"></marquee></p>
 	</div>
 	
-	<img src="images/crissale.avif" width="883px" height="278px" align="left">
-	<img src="images/sweetgirl.jpg" width="450px" height="278px" align="right">
+	<img src="https://i.postimg.cc/hPCpYZcy/pongalsale.png" width="883px" height="278px" align="left">
+	<img src="https://i.postimg.cc/xThyS5Rf/sweetgirl.jpg" width="450px" height="278px" align="right">
+
+	<!------------------------------------------swipejs web-------------------------------->
+	<!-- Slider main container -->
+    <div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/42/1349/300"></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/68/1349/300"></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/63/1349/300"></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/113/1349/300"></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/163/1349/300"></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/225/1349/300"></div>
+	  ...
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+  
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+    </div>
+	<!--------------------------------------------------------------------------------------->
+
+
 	&emsp;
 	<h3> SWEETS CATEGORY :</h3>
 	<div class="sweets">
@@ -41,37 +71,70 @@
 
 		<figure>
 			<div id="item-0">
-               <img src="images/gulabjamun.jpg" width="250px" height="200px">
+               <img src="https://i.postimg.cc/hv4r5YMM/gulabjamun.jpg" width="250px" height="200px">
 	           <div id="item-2">Gulabjamun Price: Rs.100/250g</div>
             </div>
 		</figure>
 
 	    <figure>
 			<div id="item-1">
-	        <img src="images/sonbabdy.jpg" width="250px" height="200px">
-			<div id="item-3">Soan Papdy price Rs.99/1kg</div>
+	        <img src="https://i.postimg.cc/jqDxm4kd/sonbabdy.jpg" width="250px" height="200px">
+			<div id="item-3">Soan Papdy price: Rs.99/1kg</div>
 		    </div>
 		</figure>
 
 		<figure>
 			<div id="item-4">
-	        <img src="images/laddu.jpg" width="250px" height="200px">
-			<div id="item-6">Laddu price Rs.99/1kg</div>
+	        <img src="https://i.postimg.cc/L4yBsNxK/laddu.jpg" width="250px" height="200px">
+			<div id="item-6">Laddu price: Rs.99/1kg</div>
 		    </div>
 		</figure>
 
 		<figure>
 			<div id="item-5">
-	        <img src="images/kajukattly.jpg" width="250px" height="200px">
-			<div id="item-7">kajukattly price Rs.99/1kg</div>
+	        <img src="https://i.postimg.cc/fLC7mKZd/kajukattly.jpg" width="250px" height="200px">
+			<div id="item-7">kajukattly price: Rs.99/250g</div>
 		    </div>
 		</figure>
 
     </div>
     </div>
 
-	<script src="JS/script.js">
-	   
-	</script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+		const swiper = new Swiper('.swiper', {
+		// Optional parameters
+		direction: 'horizontal',
+		loop: true,
+		autoplay: {delay: 1000,},
+		slidesPerView: 1,
+		spaceBetween: 10,
+		disableOnInteraction: true,
+        pauseOnMouseEnter: true,
+
+		// If we need pagination
+		pagination: {
+			el: '.swiper-pagination',
+			clickable:true,
+		},
+
+		// Navigation arrows
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+
+		// And if we need scrollbar
+		scrollbar: {
+			el: '.swiper-scrollbar',
+		},
+		});
+
+		//stop/start slideshow with mouse:
+		 
+		</script>
+		<!-- <script src="JS/script.js">
+	    </script> -->
 </body>
 </html>
